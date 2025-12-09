@@ -1,4 +1,4 @@
-namespace Marmary.SettingsSystem
+namespace Marmary.SaveSystem
 {
     /// <summary>
     /// Marker interface for objects capable of persisting their state.

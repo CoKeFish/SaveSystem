@@ -1,3 +1,14 @@
 {
-  "name": "Marmary.SaveSystem"
+    "name": "Marmary.SaveSystem",
+    "rootNamespace": "Marmary",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
