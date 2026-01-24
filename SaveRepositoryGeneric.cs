@@ -12,7 +12,7 @@
         /// <summary>
         ///     Represents the context used to save, load. Contains with path and settings for the save data.
         /// </summary>
-        private readonly ISaveContext _context;
+        private readonly IFile _context;
 
         /// <summary>
         ///     The key to save the data under.
@@ -38,7 +38,7 @@
 
         #region Constructors and Injected
 
-        public SaveRepositoryGeneric(string key, ISaveContext context, T defaultValue = default)
+        public SaveRepositoryGeneric(string key, IFile context, T defaultValue = default)
         {
             _key = key;
             _defaultValue = defaultValue;

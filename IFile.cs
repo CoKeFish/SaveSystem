@@ -3,7 +3,7 @@
     /// <summary>
     ///     Defines methods for saving and loading data using a key-value mechanism.
     /// </summary>
-    public interface ISaveContext
+    public interface IFile
     {
         #region Methods
 
