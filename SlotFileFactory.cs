@@ -12,7 +12,7 @@ namespace Marmary.SaveSystem
     /// - Support transient file types, enabling temporary data usage and deletion.
     /// - Streamline batching and caching operations within a slot.
     /// </remarks>
-    public abstract class SlotFileFactory
+    public class SlotFileFactory
     {
         /// <summary>
         /// Responsible for managing save files within a specific slot.
@@ -23,7 +23,7 @@ namespace Marmary.SaveSystem
         /// - Allows precise control over save data with contextual loading and unloading.
         /// - Supports specialized files (e.g., transient files like battles) that can be handled independently.
         /// </remarks>
-        protected SlotFileFactory(string slotId, IFileFactory fileFactory)
+        public SlotFileFactory(string slotId, IFileFactory fileFactory)
         {
             SlotId = slotId;
             FileFactory = fileFactory;
