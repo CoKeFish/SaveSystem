@@ -1,4 +1,4 @@
-﻿namespace Marmary.SaveSystem
+namespace Marmary.SaveSystem
 {
     /// <summary>
     ///     Defines methods for saving and loading data using a key-value mechanism.
@@ -31,6 +31,12 @@
         /// <param name="key">The key to check for existence.</param>
         /// <returns>True if the key exists; otherwise, false.</returns>
         bool KeyExists(string key);
+
+        /// <summary>
+        ///     Removes the key and its value. Does nothing when the key does not exist.
+        /// </summary>
+        /// <param name="key">The key to remove.</param>
+        void DeleteKey(string key);
 
         #endregion
     }
