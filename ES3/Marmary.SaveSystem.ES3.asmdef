@@ -1,0 +1,17 @@
+{
+  "name": "Marmary.SaveSystem.ES3",
+  "rootNamespace": "Marmary.SaveSystem.ES3",
+  "references": [
+    "Marmary.SaveSystem",
+    "EasySave3"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
